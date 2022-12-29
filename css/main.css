@@ -60,6 +60,10 @@ body {
 
 }
 
+.nav-button {
+  display: none;
+}
+
 .nav-link {
   color: #000000;
 }
@@ -102,6 +106,12 @@ body {
 .sevices-row {
   display: flex;
   column-gap: 30px;
+  row-gap: 60px;
+  flex-wrap: wrap;
+}
+.service-card {
+  flex: 1 1 0;
+  min-width: 315px;
 }
 
 .service-card-img {
