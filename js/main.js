@@ -3,11 +3,11 @@ const navBtn = document.querySelector('#nav-btn');
 const navBtnImg = document.querySelector('#nav-btn-img');
 
 navBtn.onclick = () => {
-  if(nav.classList.toggle('open')) {
-   navBtnImg.src = "./img/Icons/nav_close.svg";
-  } else {
-    navBtnImg.src = "./img/Icons/nav_open.svg";
-  }
+    if (nav.classList.toggle('open')) {
+        navBtnImg.src = "./img/icons/nav-close.svg";
+    } else {
+        navBtnImg.src = './img/icons/nav-open.svg';
+    }
 }
 
 /*  AOS.init();   */
