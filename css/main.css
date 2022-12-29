@@ -49,42 +49,115 @@ body {
   right: 0;
   bottom: 0;
 }
+
 /*nav*/
 
-.nav-list{
-display: flex;
-column-gap: 50px;
-font-weight: 500;
-font-size: 14px;
+.nav-list {
+  display: flex;
+  column-gap: 50px;
+  font-weight: 500;
+  font-size: 14px;
 
 }
 
-.nav-link{
+.nav-link {
   color: #000000;
 }
 
-.nav-link.active{
+.nav-link.active {
   color: #606060;
 }
 
 /*Header-content*/
 
-.header-row{
+.header-row {
   display: flex;
   justify-content: space-between;
   column-gap: 30px;
 }
-.header-heading{
+
+.header-heading {
   margin-bottom: 20px;
   font-weight: 600;
   font-size: 44px;
 }
-.header-content{
+
+.header-content {
   max-width: 500px;
   margin-top: 124px;
 }
+
 .header-content p {
   font-weight: 400;
-font-size: 14px;
-line-height: 2;
+  font-size: 14px;
+  line-height: 2;
+}
+
+/*Service*/
+
+.services {
+  padding: 90px 0;
+}
+
+.sevices-row {
+  display: flex;
+  column-gap: 30px;
+}
+
+.service-card-img {
+  margin-bottom: 30px;
+}
+
+.service-card-title {
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.service-card p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 200%;
+}
+
+/*portfolio*/
+.portfolio {
+  padding: 90px 0;
+  background: #F1F1F1;
+}
+
+.portfolio-title {
+  text-align: center;
+  margin-bottom: 70px;
+
+}
+
+.title-1 {
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 51px;
+}
+
+.project {
+  text-align: center;
+
+}
+.project + .project {
+  margin-top: 90px;
+}
+
+.project-img {
+  margin-bottom: 40px;
+}
+
+.project-title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-decoration-line: underline;
+  }
+
+.project-title a {
+  color: #070707;
 }
