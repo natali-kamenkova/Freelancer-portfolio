@@ -1,5 +1,90 @@
 @import url("./reset.css");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto&display=swap');
+
 body {
   font-family: 'Poppins', sans-serif;
+  color: #000000;
+}
+
+.container {
+  max-width: 1230px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+/*header*/
+.header {
+  padding-top: 46px;
+  background-color: #F1F1F1;
+
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 76px;
+}
+
+.logo {
+  position: relative;
+  padding-right: 12px;
+  padding-bottom: 3px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1;
+  color: #000000;
+
+
+}
+
+.logo::after {
+  content: "";
+  display: block;
+  width: 8px;
+  height: 8px;
+  background: #FDA300;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+/*nav*/
+
+.nav-list{
+display: flex;
+column-gap: 50px;
+font-weight: 500;
+font-size: 14px;
+
+}
+
+.nav-link{
+  color: #000000;
+}
+
+.nav-link.active{
+  color: #606060;
+}
+
+/*Header-content*/
+
+.header-row{
+  display: flex;
+  justify-content: space-between;
+  column-gap: 30px;
+}
+.header-heading{
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 44px;
+}
+.header-content{
+  max-width: 500px;
+  margin-top: 124px;
+}
+.header-content p {
+  font-weight: 400;
+font-size: 14px;
+line-height: 2;
 }
