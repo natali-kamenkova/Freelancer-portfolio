@@ -143,7 +143,8 @@ body {
   text-align: center;
 
 }
-.project + .project {
+
+.project+.project {
   margin-top: 90px;
 }
 
@@ -156,8 +157,75 @@ body {
   font-size: 18px;
   line-height: 27px;
   text-decoration-line: underline;
-  }
+}
 
 .project-title a {
   color: #070707;
+}
+
+/*contacts*/
+
+.contacts {
+  padding: 90px 0;
+  text-align: center;
+}
+
+.contacts-title {
+
+  margin-bottom: 40px;
+}
+
+.contacts-content {
+  margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contacts-content p+p {
+  margin-top: 1em;
+}
+
+.contacts-button {
+  margin-bottom: 80px;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 30px;
+  background-color: #070707;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 7px 22px;
+  transition: background-color 0.2s ease-in, top 0.2s ease-in;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #323232;
+}
+
+.button:active {
+  position: relative;
+  top: 1px;
+  background-color: #000000;
+
+}
+
+.contacts-social {
+  display: flex;
+  justify-content: center;
+  column-gap: 60px;
+  margin-bottom: 40px;
+  align-items: center;
+}
+
+.contacts-footer {
+  font-weight: 400;
+  font-size: 14px;
+  color: #828282;
 }
